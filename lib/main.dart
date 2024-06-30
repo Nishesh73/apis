@@ -2,6 +2,7 @@ import 'package:apisproject/get_req/listofjsonscreen.dart';
 import 'package:apisproject/get_req/screensingleapi.dart';
 import 'package:apisproject/models/singleapimodel.dart';
 import 'package:apisproject/get_req/startmapscreen.dart';
+import 'package:apisproject/post_req/postmodel/createscreen.dart';
 import 'package:apisproject/post_req/postmodel/postscreen.dart';
 import 'package:flutter/material.dart';
 
@@ -18,7 +19,8 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       // home: ScreenSingleApi(),
       // home: MyWidget(),
-      home: PostScreen(),
+      // home: PostScreen(),
+      home: CreateScreen(),
     );
   }
 }
